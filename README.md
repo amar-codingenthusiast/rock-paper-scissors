@@ -38,7 +38,7 @@ This Rock Paper Scissors game is deployed on GitHub Pages, allowing you to play 
 
 ## Credits
 
-This project was built by Amar Kumar. It is a fun way to practice HTML, CSS, and JavaScript skills and is suitable for beginners.
+This project is built by Amar Kumar. It is a fun way to practice HTML, CSS, and JavaScript skills and is suitable for beginners.
 
 ## License
 
