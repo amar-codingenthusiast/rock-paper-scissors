@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(2, 2, 25);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+#choices {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    margin: 10px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 6px transparent solid;
+}   
+img:hover {
+    border: 6px #210619 solid;
+}
+#scores {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#player, #computer {
+    padding: 10px 55px;
+    font-size: 48px;
+}
+#details {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+#message {
+    padding: 10px;
+    font-size: 48px;
+    display: inline-block;
+    background-color: rgb(2, 2, 25);
+    color: white;
+    border-radius: 25px;
+}
+a {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 8vw;
+        height: 15vw;
+    }
+    img {
+        margin: 1.5vw;
+        height: 26vw;
+        width: 26vw;
+    }
+    #details {
+        font-size: 3.5vw;
+    }
+    #message {
+        font-size: 8vw;
+    }
+    #scores {
+        font-size: 5vw;
+    }
+    #player, #computer {
+        padding: 2vw 9vw;
+        font-size: 8vw;
+    }
+}
